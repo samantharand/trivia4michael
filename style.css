@@ -1,0 +1,65 @@
+body {
+	background-color: lavender;
+	font: 'Press Start 2P';
+}
+
+.container {
+	padding: 100px;
+}
+
+#actionButtons {
+	display: none;
+}
+
+#gameCard {
+	height: 400px;
+}
+
+#gameBox {
+	display: none;
+}
+
+.answerOptionBtn {
+	margin: 10px 0;
+}
+
+small {
+	font-size: 10px;
+}
+
+#notTheTitleIDK {
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button:focus {outline:0;}
+
+/* NES overrides */
+
+.nes-btn {
+    border-image-repeat: inherit;
+}
+
+.nes-balloon {
+	height: 40px !important;
+	border-image-repeat: stretch !important; 
+	padding: 5px;
+}
+
+.message-list {
+	display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+/* cursor icon */
+
+/*.movablediv {
+	width:10px; 
+	height:25px; 
+	position:absolute; 
+	border:solid 1px #000
+}*/
